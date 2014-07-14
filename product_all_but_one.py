@@ -1,3 +1,13 @@
+"""
+	Four cases to consider:
+
+	When looping again on the array: (Output)
+	One: No zeroes in the array: Print the product divided by the interated element
+	Two: Two or more zeroes: Print 0 for the whole array
+	Three: One zero:
+		Subcase 1: Print 0 if the current element is not a zero
+		Subcase 2: Print the product if the current element is a zero
+"""
 def main():
 	product = 1
 	length = int(input())
